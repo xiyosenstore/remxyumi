@@ -20,7 +20,7 @@ routes = [
 ]
 
 [unsafe.metadata.observability]
-enabled = true
+enabled = false
 
 [observability.logs]
-enabled = true
+enabled = false
