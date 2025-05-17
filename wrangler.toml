@@ -15,9 +15,15 @@ routes = [
   { pattern = "telkomuniversity.ac.id.remxyumi.yumicftigarun.web.id", custom_domain = true },
   { pattern = "untar.ac.id.remxyumi.yumicftigarun.web.id", custom_domain = true },
   { pattern = "ganecadigital.com.remxyumi.yumicftigarun.web.id", custom_domain = true },
-   { pattern = "graph.instagram.com.remxyumi.yumicftigarun.web.id", custom_domain = true },
+  { pattern = "graph.instagram.com.remxyumi.yumicftigarun.web.id", custom_domain = true },
+  { pattern = "cambridgeenglish.org.remxyumi.yumicftigarun.web.id", custom_domain = true },
+  { pattern = "belajar.kemdikbud.go.id.remxyumi.yumicftigarun.web.id", custom_domain = true },
+  { pattern = "edu.rcvpn.net.remxyumi.yumicftigarun.web.id", custom_domain = true },
  
 ]
+
+
+
 
 [unsafe.metadata.observability]
 enabled = false
