@@ -131,7 +131,7 @@ export default {
         }
       }
 
-      if (url.pathname.startsWith("/au")) {
+      if (url.pathname.startsWith("/sub")) {
         return Response.redirect(SUB_PAGE_URL + `?host=${APP_DOMAIN}`, 301);
       } else if (url.pathname.startsWith("/check")) {
         const target = url.searchParams.get("target").split(":");
@@ -147,7 +147,7 @@ export default {
       } else if (url.pathname.startsWith("/api/v1")) {
         const apiPath = url.pathname.replace("/api/v1", "");
 
-        if (apiPath.startsWith("/au")) {
+        if (apiPath.startsWith("/sub")) {
           const filterCC = url.searchParams.get("cc")?.split(",") || [];
           const filterPort = url.searchParams.get("port")?.split(",") || PORTS;
           const filterVPN = url.searchParams.get("vpn")?.split(",") || PROTOCOLS;
