@@ -10,7 +10,7 @@ const ope = 'https://geoproject.biz.id/circle-flags/options.png'
 
 // Variables
 const rootDomain = "c6k7ql9g5b.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "yu; // Ganti dengan nama workers kalian
+const serviceName = "yare; // Ganti dengan nama workers kalian
 const apiKey = "32e92b71c2ff3c8b71e2681cd519d1bcc29ae"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "c6k7ql9g5b@xkxkud.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "ca6ca42842b3a4580f27f97f61d4692b"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
