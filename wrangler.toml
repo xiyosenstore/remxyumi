@@ -1,4 +1,4 @@
-name = "yu"
+name = "yare"
 main = "_worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat_v2"]
@@ -7,8 +7,8 @@ minify = true
 workers_dev = true
 routes = [
    
-  { pattern = "ava.game.naver.com.yu.c6k7ql9g5b.workers.dev", custom_domain = true },
-  { pattern = "collection.linefriends.com.yu.c6k7ql9g5b.workers.dev", custom_domain = true }
+  { pattern = "ava.game.naver.com.yare.c6k7ql9g5b.workers.dev", custom_domain = true },
+  { pattern = "collection.linefriends.com.yare.c6k7ql9g5b.workers.dev", custom_domain = true }
  
 ]
 
